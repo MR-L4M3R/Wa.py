@@ -5,7 +5,7 @@
 # Just Kidding
 
 import os, sys
-print '\x1b[1;32mSudah Punya ID dan Password untuk Login?? Kalo belum ketik asal asal aja nanti di arahkan ke wa admin:) dan jangan lupa login facebook di OperaMini dulu sebelum login agar tidak CekPoint'
+print '\x1b[1;32mSudah Punya ID dan Password untuk Login?? Kalo belum ketik asal asal aja nanti di arahkan ke wa admin:)'
 print '\x1b[1;32mSilahkan Login '
 import os, sys
 
