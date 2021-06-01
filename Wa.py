@@ -254,7 +254,7 @@ def Spam():
 	os.system('clear')
 	print(C+'Wajib SUBCRIBE '+W+' Bro Biar Afdoll !'+C+' :V')
 	sleep(1.5)
-	os.system('xdg-open https://www.youtube.com/channel/UCVX-ZwkQ4FVbRdk7AGuF_SA')
+	os.system('xdg-open https://youtube.com/channel/UCmuNYQZM9crdJ59kUP9khIg')
 	os.system('clear')
 	sleep(1.3)
 	Banner()
