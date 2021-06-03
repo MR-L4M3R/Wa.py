@@ -1,65 +1,57 @@
 #!/usr/bin/python2
 
-# Creator :  ./Mr-S4NTUY(SimPLeDark)
-# Team : Solo
-# Just Kidding
+# Creator :  ./Mr-L4M3R)
+# Team : SUMBER
+# REMBANG
 
-import os, sys
-print '\x1b[1;32mSudah Punya ID dan Password untuk Login?? Kalo belum ketik asal asal aja nanti di arahkan ke wa admin:)'
-print '\x1b[1;32mSilahkan Login '
-import os, sys
+
+#!usr/bin/python2
+# -*- coding: utf-8 -*-
+import os, sys, time, datetime, random, hashlib, re, threading, json, getpass, urllib
+from multiprocessing.pool import ThreadPool
+
+#hay manusia udah nyampe di sini ea  ubah author ataupun ngerecode semoga emak bapaknya mati dalam keadaan mengenaskan
+#buat yg nyampe di sini cuman buat mempelajari pemrograman dan beberapa fungsinya ane ucapin selamat berjuang
+#tapi awaslu yg nge recode ataupun mengganti author
+
+def tik():
+    titik = [
+     '   ', '.  ', '.. ', '...', '.. ', '.  ', '   ']
+    for o in titik:
+        print '\r\x1b[1;91m     [\xe2\x97\x8f] \x1b[1;92mLoading \x1b[1;97m' + o,
+        sys.stdout.flush()
+        time.sleep(0.7)
 
 def wa():
     os.system('xdg-open https://api.whatsapp.com/send?phone=+15075790039&text=Assalamualaikum')
 
+def ressture():
+   os.system('clear')
+   print '\x1b[1;33m╔╦══════════════════════════════════╗\n║║ Sudah punya ID dan Password nya? ║\n╚╣╔═════════════════════════════════╝\n╔╝╚═════════════════════╗'
+   print '\x1b[1;33m║LOGIN UNTUK MELANJUTKAN║\n╠═══════════════════════╝'
+   user = raw_input('║ID      : ')
+   import getpass
+   sandi = raw_input('║PW      : ')
+   if sandi == 'channel MRL4M3R' and user == 'subscribe':
+      print '║LOGIN SUKSES\n╚═══════\x1b[1;91m▶'
+      sys.exit
+   else:
+      print 'Login GAGAL, Silahkan hubungi ADMIN'
+      time.sleep(1)
+      wa()
+      ressture()
 
-def restart():
-    ngulang = sys.executable
-    os.execl(ngulang, ngulang, *sys.argv)
-
-
-user = raw_input('ID: ')
-import getpass
-sandi = raw_input('Password: ')
-if sandi == 'indoxploit' and user == 'Borot':
-    print 'Login Berhasil'
-    sys.exit
-else:
-    print 'Login GAGAL, Silahkan hubungi ADMIN'
-    wa()
-    restart()
-import os, sys, time, datetime, random, hashlib, re, threading, json, getpass, urllib
-from multiprocessing.pool import ThreadPool
-try:
-    import mechanize
-except ImportError:
-    os.system('pip2 install mechanize')
-else:
-    try:
-        import requests
-    except ImportError:
-        os.system('pip2 install requests')
-
-from requests.exceptions import ConnectionError
-from mechanize import Browser
-reload(sys)
-sys.setdefaultencoding('utf8')
-br = mechanize.Browser()
-br.set_handle_robots(False)
-br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(), max_time=1)
-br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16')]
-
-def keluar():
-    print '\x1b[1;91m[!] Keluar'
-    os.sys.exit()
-
-
-def jalan(z):
-    for e in z + '\n':
-        sys.stdout.write(e)
+def loding2():
+    looding2 = [
+     '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[/]', '[-]', '[\]', '[|]', '[\033[1;32m✓\033[0m]\n']
+    for o in looding2:
+        print '\r\x1b[1;91m[\xe2\x97\x8f] \x1b[1;92mCheck \x1b[1;97m' + o,
         sys.stdout.flush()
         time.sleep(0.1)
+        
 
+ressture()
+os.system('sh hsowkaksisisiaiowowkwkaiske')
 
 from requests import ConnectionError
 from time import sleep
